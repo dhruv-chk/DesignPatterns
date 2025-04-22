@@ -15,6 +15,6 @@ public class Circle implements Shape{
 
     @Override
     public void draw() {
-        System.out.printf("Drawing a %s circle.", color);
+        System.out.printf("Drawing a %s circle.%n", color);
     }
 }

@@ -1,6 +1,7 @@
 package org.patterns;
 
 import org.patterns.abstractFactory.AbstractFactoryClient;
+import org.patterns.builder.BuilderClient;
 import org.patterns.factory.FactoryClient;
 import org.patterns.prototype.PrototypeClient;
 import org.patterns.singleton.SingletonClient;
@@ -28,6 +29,10 @@ public class App
 
         // Prototype Design Pattern
         PrototypeClient.execute();
+        System.out.println();
+
+        // Builder Design Pattern
+        BuilderClient.execute();
         System.out.println();
     }
 }
